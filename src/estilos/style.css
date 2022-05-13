@@ -165,10 +165,13 @@ img {
 
 .principal .contato .conteudo-contato a {
     color: black;
+    transition: 0.2s;
 }
 
 .principal .contato .conteudo-contato a:hover {
-    text-decoration: underline;
+    background-color: black;
+    color: var(--cor-amarela);
+    padding: 5px;
 }
 
 .rodape {
