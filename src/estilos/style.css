@@ -1,0 +1,220 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: monospace;
+}
+
+:root {
+    --cor-amarela: #f0a654;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: black;
+    max-width: 1440px;
+    margin: auto;
+}
+
+img {
+    width: 100%;
+}
+
+.cabecalho {
+    background-color: white;
+    min-height: 80px;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.cabecalho .logo img {
+    width: 70px;
+}
+
+.cabecalho nav .menu {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.cabecalho nav .menu li {
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+.cabecalho nav .menu li a {
+    color: black;
+    transition: 0.3s ease-in-out;
+}
+
+.cabecalho nav .menu li a:hover {
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+.principal .quem-somos .conteudo-quem-somos {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.principal .quem-somos .conteudo-quem-somos .imagem-fundo {
+    background-image: url('/src/imagens/front-view-tasty-meat-burger-with-cheese-and-salad-on-a-dark-background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    min-height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.principal .quem-somos .conteudo-quem-somos .imagem-fundo h1 {
+    font-size: 5.0rem;
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.principal .quem-somos .conteudo-quem-somos .imagem-fundo p {
+    font-size: 2.5rem;
+    color: var(--cor-amarela);
+    font-weight: 700;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+}
+
+.principal .burgers {
+    width: 100%;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.principal .burgers .conteudo-burgers {
+    padding: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.principal .burgers h2 {
+    padding-top: 50px;
+    color: black;
+    text-align: center;
+    font-size: 5rem;
+}
+
+.principal .burgers .conteudo-burgers .img-burger img {
+    width: 250px;
+    height: 330px;
+    margin: 10px;
+    border-radius: 5px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.principal .burgers .conteudo-burgers .img-burger h3 {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.principal .burgers .conteudo-burgers .img-burger p {
+    width: 250px;
+    text-align: center;
+    margin: 20px auto;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.principal .contato {
+    background-color: var(--cor-amarela);
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.principal .contato .conteudo-contato {
+    max-width: 800px;
+    margin: auto;
+}
+
+.principal .contato .conteudo-contato h2 {
+    font-size: 5rem;
+    margin-bottom: 30px;
+}
+
+.principal .contato .conteudo-contato p, a {
+    font-size: 3rem;
+}
+
+.principal .contato .conteudo-contato a {
+    color: black;
+}
+
+.principal .contato .conteudo-contato a:hover {
+    text-decoration: underline;
+}
+
+.rodape {
+    min-height: 60px;
+    background-color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+.rodape .conteudo-rodape p a {
+    color: var(--cor-amarela);
+    font-size: 1.6rem;
+}
+
+.rodape .social i {
+    margin-top: 10px;
+    color: black;
+    transition: 0.2s ease;
+}
+
+.rodape .social i:hover {
+    color: var(--cor-amarela);
+}
+
+@media (max-width: 458px) {
+    .cabecalho {
+        display: block;
+        text-align: center;
+    }
+
+    .cabecalho nav .menu {
+        display: block;
+    }
+
+    .cabecalho nav .menu li {
+        margin: 15px 0;
+    }
+
+    .principal .contato .conteudo-contato p, a {
+        font-size: 2rem;
+    }
+}
