@@ -195,7 +195,7 @@ img {
 }
 
 .rodape .social i:hover {
-    color: var(--cor-amarela));
+    color: var(--cor-amarela);
 }
 
 @media (max-width: 458px) {
