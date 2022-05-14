@@ -145,6 +145,7 @@ img {
     margin: 20px auto;
     font-size: 1.8rem;
     font-weight: 700;
+    display: none;
 }
 
 .principal .contato {
@@ -198,6 +199,10 @@ img {
 .rodape .conteudo-rodape p a {
     color: var(--cor-amarela);
     font-size: 1.6rem;
+}
+
+.rodape .conteudo-rodape a:hover {
+    text-decoration: underline;
 }
 
 .rodape .social i {
