@@ -224,7 +224,23 @@ img {
         margin: 15px 0;
     }
 
-    .principal .contato .conteudo-contato p, a {
+    .principal .quem-somos .conteudo-quem-somos .imagem-fundo h1 {
+        font-size: 3rem;
+    }
+
+    .principal .quem-somos .conteudo-quem-somos .imagem-fundo p {
+        font-size: 1.8rem;
+    }
+
+    .principal .burgers h2, .principal .contato .conteudo-contato h2 {
+        font-size: 3.5rem;
+    }
+
+    .principal .contato .conteudo-contato .insta, .whatsapp {
         font-size: 2rem;
+    }
+
+    .principal .contato .conteudo-contato .link-insta, .link-whatsapp {
+        font-size: 1.6rem;
     }
 }
