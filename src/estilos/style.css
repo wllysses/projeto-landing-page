@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap');
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
-    font-family: monospace;
+    font-family: monospace, sans-serif;
 }
 
 :root {
@@ -59,7 +61,6 @@ img {
 .cabecalho nav .menu li a:hover {
     background-color: black;
     color: white;
-    padding: 10px;
 }
 
 .principal .quem-somos .conteudo-quem-somos {
@@ -83,16 +84,16 @@ img {
 .principal .quem-somos .conteudo-quem-somos .imagem-fundo h1 {
     font-size: 5.0rem;
     color: white;
-    text-transform: uppercase;
     margin-bottom: 30px;
     text-align: center;
+    font-family: 'Oleo Script Swash Caps', cursive;
 }
 
 .principal .quem-somos .conteudo-quem-somos .imagem-fundo p {
     font-size: 2.5rem;
     color: var(--cor-amarela);
     font-weight: 700;
-    max-width: 600px;
+    max-width: 650px;
     margin: 0 auto;
     text-align: center;
     padding: 10px;
@@ -124,11 +125,19 @@ img {
     margin: 10px;
     border-radius: 5px;
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.514);
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.principal .burgers .conteudo-burgers .img-burger img:hover {
+    transform: scale(1.10);
+    filter: brightness(90%);
 }
 
 .principal .burgers .conteudo-burgers .img-burger h3 {
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 3.5rem;
+    font-family: 'Oleo Script Swash Caps', cursive;
 }
 
 .principal .burgers .conteudo-burgers .img-burger p {
@@ -141,7 +150,7 @@ img {
 
 .principal .contato {
     background-color: var(--cor-amarela);
-    height: 300px;
+    height: 400px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -156,7 +165,7 @@ img {
 
 .principal .contato .conteudo-contato h2 {
     font-size: 5rem;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .principal .contato .conteudo-contato p, a {
@@ -184,6 +193,7 @@ img {
     flex-direction: column;
     font-size: 1.6rem;
     font-weight: 700;
+    padding: 20px;
 }
 
 .rodape .conteudo-rodape p a {
