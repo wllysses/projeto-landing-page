@@ -141,10 +141,13 @@ img {
 
 .principal .burgers .conteudo-burgers .img-burger p {
     width: 250px;
+    margin: 10px auto;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
     text-align: center;
-    margin: 20px auto;
     font-size: 1.8rem;
-    font-weight: 700;
     display: none;
 }
 
