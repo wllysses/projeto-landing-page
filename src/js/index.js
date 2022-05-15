@@ -2,8 +2,8 @@ const evento1 = document.getElementById('classic-event')
 
 evento1.addEventListener('mouseenter', () => {
     document.getElementById('classic-ingredientes').style.display = 'block'
-})
-
+ })
+    
 evento1.addEventListener('mouseout', () => {
     document.getElementById('classic-ingredientes').style.display = 'none'
 })
