@@ -199,12 +199,12 @@ img {
     padding: 20px;
 }
 
-.rodape .conteudo-rodape p a {
+.rodape .dev p a {
     color: var(--cor-amarela);
     font-size: 1.6rem;
 }
 
-.rodape .conteudo-rodape a:hover {
+.rodape .dev a:hover {
     text-decoration: underline;
 }
 
