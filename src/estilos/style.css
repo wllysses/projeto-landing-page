@@ -140,19 +140,19 @@ img {
     font-family: 'Oleo Script Swash Caps', cursive;
 }
 
-.principal .burgers .conteudo-burgers .img-burger.burger-classic {
+.principal .burgers .conteudo-burgers div .img-burger.burger-classic {
     background-image: url('/src/imagens/classic.JPG');
 }
 
-.principal .burgers .conteudo-burgers .img-burger.burger-especial {
+.principal .burgers .conteudo-burgers div .img-burger.burger-especial {
     background-image: url('/src/imagens/especial.JPG');
 }
 
-.principal .burgers .conteudo-burgers .img-burger.burger-prime {
+.principal .burgers .conteudo-burgers div .img-burger.burger-prime {
     background-image: url('/src/imagens/prime.JPG');
 }
 
-.principal .burgers .conteudo-burgers .img-burger.burger-double {
+.principal .burgers .conteudo-burgers div .img-burger.burger-double {
     background-image: url('/src/imagens/double.JPG');
 }
 
