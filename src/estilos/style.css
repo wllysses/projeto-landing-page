@@ -62,25 +62,23 @@ img {
     color: var(--cor-amarela);
 }
 
-.principal .quem-somos .conteudo-quem-somos {
+.principal .quem-somos {
+    min-height: 600px;
     width: 100%;
-    margin: 0 auto;
-}
-
-.principal .quem-somos .conteudo-quem-somos .imagem-fundo {
     background-image: url('../imagens/front-view-tasty-meat-burger-with-cheese-and-salad-on-a-dark-background.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    width: 100%;
-    min-height: 600px;
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
 }
 
-.principal .quem-somos .conteudo-quem-somos .imagem-fundo h1 {
+.principal .quem-somos .conteudo-quem-somos {
+    padding: 20px;
+}
+
+.principal .quem-somos .conteudo-quem-somos h1 {
     font-size: 5.0rem;
     color: white;
     margin-bottom: 30px;
@@ -88,14 +86,13 @@ img {
     font-family: 'Oleo Script Swash Caps', cursive;
 }
 
-.principal .quem-somos .conteudo-quem-somos .imagem-fundo p {
+.principal .quem-somos .conteudo-quem-somos p {
     font-size: 2.5rem;
     color: var(--cor-amarela);
     font-weight: 700;
     max-width: 650px;
     margin: 0 auto;
     text-align: center;
-    padding: 10px;
 }
 
 .principal .burgers {
@@ -118,37 +115,61 @@ img {
     font-size: 5rem;
 }
 
-.principal .burgers .conteudo-burgers .img-burger img {
+.principal .burgers .conteudo-burgers .img-burger {
     width: 250px;
     height: 330px;
+    background-color: #f0a654;
     margin: 10px;
     border-radius: 5px;
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.514);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     cursor: pointer;
     transition: 0.3s ease-in-out;
 }
 
-.principal .burgers .conteudo-burgers .img-burger img:hover {
-    transform: scale(1.05);
-    filter: brightness(90%);
+.principal .burgers .conteudo-burgers .img-burger:hover {
+    transform: scale(1.1);
 }
 
-.principal .burgers .conteudo-burgers .img-burger h3 {
+.principal .burgers .conteudo-burgers div h3 {
     text-align: center;
-    font-size: 3.5rem;
+    font-size: 3rem;
+    margin: 20px 0;
     font-family: 'Oleo Script Swash Caps', cursive;
 }
 
-.principal .burgers .conteudo-burgers .img-burger p {
-    width: 250px;
-    margin: 10px auto;
-    background-color: black;
+.principal .burgers .conteudo-burgers .img-burger.burger-classic {
+    background-image: url('/src/imagens/classic.JPG');
+}
+
+.principal .burgers .conteudo-burgers .img-burger.burger-especial {
+    background-image: url('/src/imagens/especial.JPG');
+}
+
+.principal .burgers .conteudo-burgers .img-burger.burger-prime {
+    background-image: url('/src/imagens/prime.JPG');
+}
+
+.principal .burgers .conteudo-burgers .img-burger.burger-double {
+    background-image: url('/src/imagens/double.JPG');
+}
+
+.ingredientes {
+    background-color: rgba(0, 0, 0, 0.342);
     color: white;
-    border-radius: 5px;
-    padding: 10px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     text-align: center;
     font-size: 1.8rem;
-    display: none;
+    padding: 5px;
+    border-radius: 5px;
+    transition: 0.3s ease-in-out;
+    opacity: 0;
 }
 
 .principal .contato {
