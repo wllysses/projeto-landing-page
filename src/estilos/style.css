@@ -141,19 +141,19 @@ img {
 }
 
 .principal .burgers .conteudo-burgers div .img-burger.burger-classic {
-    background-image: url('/src/imagens/classic.JPG');
+    background-image: url('../imagens/classic.JPG');
 }
 
 .principal .burgers .conteudo-burgers div .img-burger.burger-especial {
-    background-image: url('/src/imagens/especial.JPG');
+    background-image: url('../imagens/especial.JPG');
 }
 
 .principal .burgers .conteudo-burgers div .img-burger.burger-prime {
-    background-image: url('/src/imagens/prime.JPG');
+    background-image: url('../imagens/prime.JPG');
 }
 
 .principal .burgers .conteudo-burgers div .img-burger.burger-double {
-    background-image: url('/src/imagens/double.JPG');
+    background-image: url('../imagens/double.JPG');
 }
 
 .ingredientes {
