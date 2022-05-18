@@ -172,6 +172,10 @@ img {
     opacity: 0;
 }
 
+.mostrar {
+    opacity: 1;
+}
+
 .principal .contato {
     background-color: var(--cor-amarela);
     height: 400px;

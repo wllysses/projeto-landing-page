@@ -1,37 +1,10 @@
-function eventoBurger(burger) {
-    
-    if(burger === classic) {
-        burger.addEventListener('mouseenter', () => {
-            document.querySelector('#ingredientes-classic').style.opacity = '1'
-        })
-        burger.addEventListener('mouseout', () => {
-            document.querySelector('#ingredientes-classic').style.opacity = '0'
-        })
-    } else if(burger === especial) {
-        burger.addEventListener('mouseenter', () => {
-            document.querySelector('#ingredientes-especial').style.opacity = '1'
-        })
-        burger.addEventListener('mouseout', () => {
-            document.querySelector('#ingredientes-especial').style.opacity = '0'
-        })
-    } else if(burger === prime) {
-        burger.addEventListener('mouseenter', () => {
-            document.querySelector('#ingredientes-prime').style.opacity = '1'
-        })
-        burger.addEventListener('mouseout', () => {
-            document.querySelector('#ingredientes-prime').style.opacity = '0'
-        })
-    } else {
-        burger.addEventListener('mouseenter', () => {
-            document.querySelector('#ingredientes-double').style.opacity = '1'
-        })
-        burger.addEventListener('mouseout', () => {
-            document.querySelector('#ingredientes-double').style.opacity = '0'
-        })
-    }
-}
+let burgers = document.querySelectorAll('.ingredientes')
 
-eventoBurger(classic)
-eventoBurger(especial)
-eventoBurger(prime)
-eventoBurger(double)
+burgers.forEach(burger => {
+    burger.addEventListener('mouseenter', () => {
+        burger.classList.add('mostrar')
+    })
+    burger.addEventListener('mouseout', () => {
+        burger.classList.remove('mostrar')
+    })
+})
